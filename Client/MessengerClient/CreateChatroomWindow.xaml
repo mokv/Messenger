@@ -1,0 +1,17 @@
+﻿<Window x:Class="MessengerClient.CreateChatroomWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MessengerClient"
+        mc:Ignorable="d"
+        Title="CreateChatroomWindow" Height="134.634" Width="414.878"
+        ResizeMode="NoResize">
+    <StackPanel>
+        <TextBlock Margin="0 10 0 0" HorizontalAlignment="Center">Please, enter chatroom name.</TextBlock>
+        <TextBox x:Name="textBoxChatroomName" Width="300" Margin="0 10 0 0" HorizontalAlignment="Center"></TextBox>
+        <Grid Margin="40 10 40 0">
+            <Button x:Name="btnSubmit"  Content="Submit" HorizontalAlignment="Center" Width="100" Click="btnSubmit_Click"/>
+        </Grid>
+    </StackPanel>
+</Window>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="955c6f1a43ba4c849a68338053569323" Name="Diagram1">
+        <EntityTypeShape EntityType="MessengerModel.ChatroomDetail" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengerModel.Chatroom" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengerModel.Message" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MessengerModel.User" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="MessengerModel.FK_ChatroomDetails_Chatrooms" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengerModel.FK_ChatroomDetails_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengerModel.FK_Messages_Chatrooms" ManuallyRouted="false" />
+        <AssociationConnector Association="MessengerModel.FK_Messages_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
